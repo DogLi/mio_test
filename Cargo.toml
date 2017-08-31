@@ -1,0 +1,19 @@
+[package]
+name = "mio_test"
+version = "0.1.0"
+authors = ["linfeng.yuan <cxwcylf@126.com>"]
+
+[dependencies]
+byteorder = "0.3"
+env_logger = "0.3.1"
+log = "0.3.1"
+mio = "0.6"
+slab = "0.3.0"
+
+[[bin]]
+name = "server"
+path = "src/main.rs"
+
+[[bin]]
+name = "client"
+path = "src/client.rs"
